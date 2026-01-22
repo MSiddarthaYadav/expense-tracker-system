@@ -1,4 +1,14 @@
-💰 Expense Tracker - FastAPI
+📂 Project Structure
+expense-tracker-fastapi/
+│── main.py
+│── database.py
+│── models.py
+│── schemas.py
+│── templates/
+│    └── index.html
+│── static/
+│    └── (css/js/images)
+│── requirements.txt💰 Expense Tracker - FastAPI
 
 A simple and efficient Expense Tracker Web Application built using FastAPI and SQLAlchemy.
 This project helps users add, view, delete expenses, and track their total spending summary.
