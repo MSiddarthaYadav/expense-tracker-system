@@ -1,14 +1,4 @@
-📂 Project Structure
-expense-tracker-fastapi/
-│── main.py
-│── database.py
-│── models.py
-│── schemas.py
-│── templates/
-│    └── index.html
-│── static/
-│    └── (css/js/images)
-│── requirements.txt💰 Expense Tracker - FastAPI
+💰 Expense Tracker - FastAPI
 
 A simple and efficient Expense Tracker Web Application built using FastAPI and SQLAlchemy.
 This project helps users add, view, delete expenses, and track their total spending summary.
@@ -96,10 +86,10 @@ DELETE	/expenses/{expense_id}	Delete expense by ID
 FastAPI provides automatic documentation:
 
 Swagger UI:
-👉 http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/docs
 
 ReDoc UI:
-👉 http://127.0.0.1:8000/redoc
+http://127.0.0.1:8000/redoc
 
 🧪 Sample JSON for Adding Expense
 {
